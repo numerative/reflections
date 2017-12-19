@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It directly pointed out what was changed and from there it was easy to spot what was wrong.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Comparison becomes easy. Let's you focus on the changes instead of trying to remember what all has been changed in the first place. Recovering from mistakes is also easier. Having older versions let's you visit your code back in time and understand the reason for the code to exist.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+You compare between two finished products instead of every little change that you have made along the way. Only the logical aspect of the changes are reflected when viewing each version.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Well, all the files in google docs are independent and it doesn't make sense to save all of the files as a commit; each one can have its own sepearte version in time and that is totally fine. Whereas, the git requires multiple files to be stored in a single commit as each one is dependant on another to make the code work.
+
+
+How can you use the commands git log and git diff to view the history of files?
+First navigating to the project directory and then using diff log will show all the commits. Find the relavant commit and copy two commit IDs (ideally the one previous to the relavant commit) and use git diff new_id old_id.
+This will display the list of changes; green lines were added and red were removed since the previous version. If color not shown, then use git confit --global color.ui auto
+
+
+How might using version control make you more confident to make changes that could break something?
+You are eased from the ever present tension of what if this didn't work... Having a path that leads back step by step will help overcome greater difficulties. Or I can say that using git is like leaving breadcrumbs along the way as you progress towards the the goal of making a great product.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Fill in your answer here
