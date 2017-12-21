@@ -6,6 +6,7 @@ How is the staging area different from the working directory and the repository?
 Staging area let's you prepare the files that are ready to be put in one commit. Preparing a stage doesn't actually make any changes to the working directory or the repository just yet. It makes a difference as it gives you greater control over what becomes the part of which commit.
 
 How can you use the staging area to make sure you have one commit per logical change?
+By using git diff, you can ascertain which files have been affected. Select the files that reflect one logical change and add them to the staging area run git diff and then git diff --staged to learn if all necessary files have been staged. Push the commit after verification.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
