@@ -9,9 +9,15 @@ How can you use the staging area to make sure you have one commit per logical ch
 By using git diff, you can ascertain which files have been affected. Select the files that reflect one logical change and add them to the staging area run git diff and then git diff --staged to learn if all necessary files have been staged. Push the commit after verification.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+I am not sure how powerful merging is. But, it seems that I can keep different versions of the code running concurrently.
 
 How do the diagrams help you visualize the branch structure?
+It definitely explains a lot about reachability. Meaning, when you see git log, you might be completely missing out on some of the edits. A visualization would help get over other branches and check that code out.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is the ability to see the unreachable commits using git logs. Not just that, when two separate features were added on different branches, you can merge them into the master and see it all features on the master. 
+Well, we represent the merges by showing the tips merging into one, this is to signify that the branches have merged.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Automatic merges are are efficient, they take away the overhead of manually comparing each and every changes. Git is careful enough to not merge conflicts so you can be certain that the merge is not going to introduce any unwanted bugs.
+Automatic merging makes it possible, what is not possible with manual merging.
