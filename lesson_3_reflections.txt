@@ -33,7 +33,10 @@ remote stored locally?
 How would you collaborate without using Git or GitHub?  What would be
 easier, and what would be harder?
 
-    Fill in your answer here
+    I don't know if it is possible to do this without git.. One thing I can do is
+    keep all files synced with google drive between collaborators and make changes
+    locally and hope that there aren't any conflicting changes with other collaborators.
+    That way we all can have an updated copy all the time.
 
 When would you want to make changes in a separate branch rather than
 directly in master?  What benefits does each approach have?
