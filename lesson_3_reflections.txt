@@ -41,4 +41,6 @@ easier, and what would be harder?
 When would you want to make changes in a separate branch rather than
 directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+    You don't risk breaking the master branch as that always contains the stable code.
+    Once the new branch containing changes has been updated it can be merged with the
+    master or atleast put up for review by others by creating a pull request on GitHub.
